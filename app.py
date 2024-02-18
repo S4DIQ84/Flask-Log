@@ -1,7 +1,7 @@
 from flask import Flask, request, session, redirect, url_for, render_template
 import json
 
-app = Flask(__name__, template_folder="template")
+app = Flask(__name__, template_folder="template", static_folder="static")
 app.secret_key = ""
 
 @app.route("/login", methods=["GET", "POST"])
