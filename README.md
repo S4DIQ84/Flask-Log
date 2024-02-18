@@ -13,13 +13,13 @@ This Flask application provides basic user authentication functionalities such a
 1. Clone the repository:
 
     ```bash
-    git clone <repository-url>
+    git clone (https://github.com/S4DIQ84/Flask-Log)
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd <project-directory>
+    cd [Your Directory Name]
     ```
 
 3. Install dependencies:
@@ -50,3 +50,7 @@ This Flask application provides basic user authentication functionalities such a
 - The `db.json` file serves as a temporary database. For production use, consider using a more robust database solution.
 - Ensure to handle sensitive user information securely and implement additional security measures such as password hashing and session management before deploying to a production environment.
 
+
+## Author
+- Mohammed Sadiq Ali
+- github@: https://github.com/S4DIQ84
