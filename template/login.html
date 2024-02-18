@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="/static/login.css">
+</head>
+<body>
+    <div class="log">
+        <h1>Login</h1>
+        {% if error %}
+            <p>{{error}}</p>
+        {% endif %}
+        <form action="/login" method="POST">
+            <label for="User name">Username: </label>
+            <input type="text" class="inp1" name="username" id="username">
+            <br><br>
+            <label for="password">Password: </label>
+            <input type="password" class="inp2" name="password" id="pass"><br>
+            <input class="submit" value="SUBMIT" type="submit">
+        </form> 
+    </div>
+</body>
+</html>

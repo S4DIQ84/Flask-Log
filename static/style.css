@@ -1,0 +1,24 @@
+body{
+    background: #bdbec0;  
+}
+
+.tail{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+    font-weight: lighter;
+}
+
+h2{
+    font-family: Verdana;
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+p{
+    font-family: Verdana;
+    font-weight: lighter;
+    font-size: 20px;  
+    color: rgb(42, 6, 66);
+}
